@@ -1,7 +1,5 @@
 console.log( 'js' );
 
-
-
 $( document ).ready( function(){
   console.log( 'JQ' );
 
@@ -20,8 +18,6 @@ $( document ).ready( function(){
         console.log('error with ajax call...');
       }
     });//end ajax call
-
-  $('.punchLine').hide();
 
   $( '#addJokeButton' ).on( 'click', function(){
     console.log( 'addJokeButton on click');
