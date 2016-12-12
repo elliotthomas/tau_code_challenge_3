@@ -42,3 +42,23 @@ app.get( '/', function( req, res ){
 }); // end base url
 
 app.use( express.static( 'public' ) );
+
+app.post('/sendToServer', urlEncodedParser, function ( req, res){
+  console.log('send guess url hit', req.body);
+  var addJoke = req.body
+
+  jokes.push(addJoke);
+  console.log(jokes);
+});//end post
+
+//send info back
+app.get('/recieveFromServer', function(req, res){
+  console.log('base url hit');
+  res.send(jokes);
+});//send info back
+
+//send info back
+app.get('/array', function(req, res){
+  console.log('base url hit');
+  res.send(jokes);
+});//send info back

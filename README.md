@@ -1,10 +1,10 @@
 ##Node Express jQuery Code Challenge
 
 ### Objectives
-- Initialize and spin up a server side node/express application.
-- Send requests to the server from both the browser and using ajax in the client side script.
-- Display response on the DOM.
-- Demonstrate the separation of logic between the client and the server.
+- Initialize and spin up a server side node/express application. []
+- Send requests to the server from both the browser and using ajax in the client side script. []
+- Display response on the DOM. []
+- Demonstrate the separation of logic between the client and the server. []
 
 ### The Joke Book
 
